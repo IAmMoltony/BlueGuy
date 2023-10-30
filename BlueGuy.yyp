@@ -14,6 +14,7 @@
     {"id":{"name":"obj_gray_tile","path":"objects/obj_gray_tile/obj_gray_tile.yy",},"order":1,},
     {"id":{"name":"spr_red_enemy_squished","path":"sprites/spr_red_enemy_squished/spr_red_enemy_squished.yy",},"order":1,},
     {"id":{"name":"obj_solid_tile","path":"objects/obj_solid_tile/obj_solid_tile.yy",},"order":0,},
+    {"id":{"name":"snd_hit","path":"sounds/snd_hit/snd_hit.yy",},"order":2,},
     {"id":{"name":"player_update_sprite","path":"scripts/player_update_sprite/player_update_sprite.yy",},"order":1,},
     {"id":{"name":"player_update_camera","path":"scripts/player_update_camera/player_update_camera.yy",},"order":2,},
     {"id":{"name":"spr_blue_guy_right","path":"sprites/spr_blue_guy_right/spr_blue_guy_right.yy",},"order":0,},
