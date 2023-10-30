@@ -9,9 +9,11 @@ if (place_meeting(x, y + speed_y, obj_solid_tile)) {
 }
 y += speed_y;
 
-x += dir;
-if (place_meeting(x, y, obj_solid_tile)) {
-	dir *= -1;
+if (!squished) {
+	x += dir;
+	if (place_meeting(x, y, obj_solid_tile)) {
+		dir *= -1;
+	}
 }
 
 image_xscale = dir * -1 * 2;
@@ -19,3 +21,5 @@ image_xscale = dir * -1 * 2;
 if (y > room_height) {
 	instance_destroy();
 }
+
+event_inherited();

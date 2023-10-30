@@ -1,11 +1,3 @@
-/// @DnDAction : YoYo Games.Instances.Sprite_Scale
-/// @DnDVersion : 1
-/// @DnDHash : 32C4FBEE
-/// @DnDArgument : "xscale" "2"
-/// @DnDArgument : "yscale" "2"
-image_xscale = 2;
-image_yscale = 2;
-
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 60619BD3
@@ -16,13 +8,18 @@ dir = -1;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 3294E718
-/// @DnDArgument : "expr" "false"
-/// @DnDArgument : "var" "squished"
-squished = false;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
 /// @DnDHash : 00425170
 /// @DnDArgument : "var" "speed_y"
 speed_y = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 466A4820
+/// @DnDArgument : "expr" "spr_red_enemy_squished"
+/// @DnDArgument : "var" "squished_sprite"
+squished_sprite = spr_red_enemy_squished;
+
+/// @DnDAction : YoYo Games.Instances.Inherit_Event
+/// @DnDVersion : 1
+/// @DnDHash : 067F66DA
+event_inherited();
