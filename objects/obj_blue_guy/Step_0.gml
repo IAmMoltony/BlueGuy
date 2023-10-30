@@ -1,6 +1,6 @@
 player_movement();
 player_update_sprite();
-player_update_camera();
+camera_follow();
 
 if (y > room_height)
 	room_restart();
