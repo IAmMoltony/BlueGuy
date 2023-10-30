@@ -51,6 +51,13 @@ coyote_time = 0;
 /// @DnDArgument : "var" "coins"
 coins = 0;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 58AE2F82
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "invincible"
+invincible = false;
+
 /// @DnDAction : YoYo Games.Instance Variables.Set_Lives
 /// @DnDVersion : 1
 /// @DnDHash : 148BCEF3
