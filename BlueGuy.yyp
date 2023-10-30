@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"spr_heart","path":"sprites/spr_heart/spr_heart.yy",},"order":7,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":0,},
     {"id":{"name":"spr_blue_guy_idle","path":"sprites/spr_blue_guy_idle/spr_blue_guy_idle.yy",},"order":1,},
     {"id":{"name":"snd_jump","path":"sounds/snd_jump/snd_jump.yy",},"order":1,},

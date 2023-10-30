@@ -50,3 +50,10 @@ coyote_time = 0;
 /// @DnDHash : 51AF5D34
 /// @DnDArgument : "var" "coins"
 coins = 0;
+
+/// @DnDAction : YoYo Games.Instance Variables.Set_Lives
+/// @DnDVersion : 1
+/// @DnDHash : 148BCEF3
+/// @DnDArgument : "lives" "5"
+
+__dnd_lives = real(5);
