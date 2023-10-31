@@ -7,6 +7,12 @@ function player_movement()
 	var coyote_duration = 18;
 	var can_jump = place_meeting(x, y + 1, obj_solid_tile);
 
+	if (place_meeting(x, y + 1, obj_semisolid_tile)) {
+		if (speed_y == 0) {
+			can_jump = true;
+		}
+	}
+
 	if (can_jump) {
 	    coyote_time = coyote_duration;
 	} else {
@@ -30,7 +36,15 @@ function player_movement()
 	}
 	x += speed_x;
 
-	var one_px = sign(speed_y)
+	var one_px = sign(speed_y);
+	if (one_px != -1) {
+		if (place_meeting(x, y + speed_y, obj_semisolid_tile)) {
+			while (!place_meeting(x, y + one_px, obj_semisolid_tile)) {
+				y += one_px;
+			}
+			speed_y = 0;
+		}
+	}
 	if (place_meeting(x, y + speed_y, obj_solid_tile)) {
 		while (!place_meeting(x, y + one_px, obj_solid_tile)) {
 			y += one_px;

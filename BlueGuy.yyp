@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"obj_semisolid_green","path":"objects/obj_semisolid_green/obj_semisolid_green.yy",},"order":5,},
     {"id":{"name":"spr_heart","path":"sprites/spr_heart/spr_heart.yy",},"order":7,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":0,},
     {"id":{"name":"fnt_main_big","path":"fonts/fnt_main_big/fnt_main_big.yy",},"order":1,},
@@ -15,12 +16,15 @@
     {"id":{"name":"spr_red_enemy","path":"sprites/spr_red_enemy/spr_red_enemy.yy",},"order":0,},
     {"id":{"name":"obj_damage_tile","path":"objects/obj_damage_tile/obj_damage_tile.yy",},"order":2,},
     {"id":{"name":"player_movement","path":"scripts/player_movement/player_movement.yy",},"order":0,},
+    {"id":{"name":"spr_semisolid_green","path":"sprites/spr_semisolid_green/spr_semisolid_green.yy",},"order":2,},
     {"id":{"name":"obj_gray_tile","path":"objects/obj_gray_tile/obj_gray_tile.yy",},"order":1,},
     {"id":{"name":"spr_blue_guy_dead","path":"sprites/spr_blue_guy_dead/spr_blue_guy_dead.yy",},"order":2,},
     {"id":{"name":"spr_red_enemy_squished","path":"sprites/spr_red_enemy_squished/spr_red_enemy_squished.yy",},"order":1,},
     {"id":{"name":"spr_spike","path":"sprites/spr_spike/spr_spike.yy",},"order":1,},
+    {"id":{"name":"room_semisolid_test","path":"rooms/room_semisolid_test/room_semisolid_test.yy",},"order":1,},
     {"id":{"name":"obj_solid_tile","path":"objects/obj_solid_tile/obj_solid_tile.yy",},"order":0,},
     {"id":{"name":"snd_hit","path":"sounds/snd_hit/snd_hit.yy",},"order":2,},
+    {"id":{"name":"obj_semisolid_tile","path":"objects/obj_semisolid_tile/obj_semisolid_tile.yy",},"order":4,},
     {"id":{"name":"player_update_sprite","path":"scripts/player_update_sprite/player_update_sprite.yy",},"order":1,},
     {"id":{"name":"camera_follow","path":"scripts/camera_follow/camera_follow.yy",},"order":1,},
     {"id":{"name":"obj_spike","path":"objects/obj_spike/obj_spike.yy",},"order":3,},
@@ -57,6 +61,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"room_semisolid_test","path":"rooms/room_semisolid_test/room_semisolid_test.yy",},},
     {"roomId":{"name":"room_test1","path":"rooms/room_test1/room_test1.yy",},},
   ],
   "Folders": [
