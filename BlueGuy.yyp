@@ -2,8 +2,10 @@
   "resources": [
     {"id":{"name":"spr_heart","path":"sprites/spr_heart/spr_heart.yy",},"order":7,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":0,},
+    {"id":{"name":"fnt_main_big","path":"fonts/fnt_main_big/fnt_main_big.yy",},"order":1,},
     {"id":{"name":"snd_explode","path":"sounds/snd_explode/snd_explode.yy",},"order":3,},
     {"id":{"name":"spr_blue_guy_idle","path":"sprites/spr_blue_guy_idle/spr_blue_guy_idle.yy",},"order":1,},
+    {"id":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},"order":7,},
     {"id":{"name":"snd_jump","path":"sounds/snd_jump/snd_jump.yy",},"order":1,},
     {"id":{"name":"fnt_main","path":"fonts/fnt_main/fnt_main.yy",},"order":0,},
     {"id":{"name":"spr_gray_tile","path":"sprites/spr_gray_tile/spr_gray_tile.yy",},"order":0,},
