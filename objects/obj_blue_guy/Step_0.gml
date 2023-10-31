@@ -9,5 +9,5 @@ if (y > room_height) {
 
 image_alpha = invincible ? 0.5 : 1;
 
-if (__dnd_lives == 0)
+if (__dnd_lives <= 0)
 	instance_destroy();

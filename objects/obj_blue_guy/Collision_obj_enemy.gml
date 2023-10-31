@@ -11,10 +11,5 @@ if (abs(sin(degtorad(collision_dir))) > abs(cos(degtorad(collision_dir)))) {
 }
 
 if (abs(sin(degtorad(collision_dir))) < abs(cos(degtorad(collision_dir))) && !other.squished) {
-	if (!invincible) {
-        __dnd_lives--;
-        invincible = true;
-        alarm[0] = 160;
-		audio_play_sound(snd_hit, 1, false);
-    }
+	player_damage();
 }
